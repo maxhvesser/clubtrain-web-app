@@ -6,12 +6,11 @@ import HomeImage from "../assets/img/image_home.png"
 function Headline() {
     return (
         <Typography
-            variant="h3"
-            fontSize={100}
+            variant="h2"
             fontWeight={600}
             marginBottom={3}
         >
-            social media, for sports clubs
+            Social media,<br />for sporting clubs
         </Typography>
     )
 }
@@ -19,8 +18,7 @@ function Headline() {
 function Caption() {
     return (
         <Typography
-            variant="h6"
-            fontSize={28}
+            variant="h5"
             fontWeight={400}
             marginBottom={{
                 xs: 8,
