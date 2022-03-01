@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@mui/styles'
 import Header from "./components/Header";
 import PromoText from "./components/PromoText";
+import Footer from "./components/Footer";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -16,6 +17,7 @@ export default function App() {
         <div className={classes.root}>
             <Header />
             <PromoText />
+            <Footer />
         </div>
     );
 }
