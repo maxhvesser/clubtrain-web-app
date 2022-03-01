@@ -52,7 +52,7 @@ export default function PromoText() {
                             fit="scale-down"
                             shift="top"
                             sx={{
-                                maxHeight: 728
+                                maxHeight: 640
                             }}
                         />
                     </Box>
