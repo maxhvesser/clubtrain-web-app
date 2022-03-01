@@ -1,5 +1,5 @@
 import React from 'react';
-import {Box, Grid, Paper, Stack, Typography} from "@mui/material";
+import {Box, Grid, Typography} from "@mui/material";
 import Image from 'mui-image'
 import HomeImage from "../assets/img/image_home.png"
 
